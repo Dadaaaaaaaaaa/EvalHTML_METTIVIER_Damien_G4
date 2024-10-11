@@ -1,0 +1,176 @@
+.d-flex{
+    display: flex;
+}
+
+.justifie-content-between{
+    justify-content: space-between;
+}
+/* espace entre */
+.border{
+    border: 2px solid black;
+}
+
+#logo{
+    height: 50px;
+    width: 200px;
+}
+/* taille logo */
+ul{
+    list-style-type: none;
+    display: flex;
+}
+/* pas de point */
+.align-items-center{
+    align-items: center;
+
+}
+/* aligner au centre | */
+
+
+.marge{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size:small;
+}
+/* marge QUE pour header */
+
+header{
+    /* padding-top: 20px;
+    padding-bottom: 20px;*/
+    padding: 20px;
+} 
+
+.violet{
+    background-color: rgb(98, 64, 190);
+}
+
+.w-70{
+    width: 70%;
+}
+/* taille d'un elt */
+.w-50{
+    width: 50%;
+}
+
+.w-60{
+    width: 60%;
+}
+.justifie-content-center{
+    justify-content: center;
+}
+/* pour centrer -- */
+.flex-colone{
+    flex-direction: column;
+}
+/* pour que ce soit une colone  */
+.pad{
+    padding: 30px;
+}
+
+.pad2{
+    padding-left: 30px;
+    margin-top: -150px;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.pad3{
+    padding-right: 150px;
+    padding-left: 15px;
+}
+
+.ici{
+    font-size: 40px;
+    
+}
+
+body{font-family: Arial, Helvetica, sans-serif;}
+#bl1{
+    color: rgb(15, 143, 255);
+}
+
+#bl2{
+    color: rgb(101, 45, 255);
+}
+#bl3{
+    color: rgb(155, 56, 255);
+}
+#bl4{
+    color: rgb(195, 56, 255);
+}
+#p1{color: aliceblue; font-size:medium; margin-top: -10px;}
+#p2{margin-left: 25%; margin-right: 25%;}
+.p3{font-size: normal;}
+#T2{margin-top: -20px;}
+.T3{color : red}
+.enplus{color: aliceblue; background-color: brown; size: 20px;}
+.titre{background-color:rgb(0, 0, 199); color: aliceblue;}
+.marge2{margin-left: 20px; margin-right: 20px;}
+.sous{font-size: smaller;}
+.gradient-text {
+    background-color: rgb(0, 229, 255);
+    
+    background-image: linear-gradient(45deg, #78f37a, #af42ad);
+    
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+.ph9{width: 40%;}
+.pad3{margin-right: 25px;}
+.h1{margin-top: -5px; margin-bottom: -5px;}
+
+img:hover{width:55%}
+p:hover{opacity: 0.5;}
+
+/* flex : vrap === respecte les "distances", valeurs (genre en %), et va à la ligne si ya plus de place  */
+
+/* Petits appareils (mobiles en portrait) */
+@media only screen and (max-width: 480px) {
+    /* Styles pour smartphones */
+
+}
+
+/* Appareils mobiles (petit à moyen) +   Appareils mobiles (petit à moyen) */
+@media only screen and (max-width: 767px) {
+    /* Smartphone et petites tablettes */
+    #img-header {
+        display: none;
+    }
+
+    .w-50 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Appareils mobiles (petit à moyen) */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* Styles pour smartphones en paysage et petites tablettes */
+}
+
+/* Tablettes */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Styles pour tablettes */
+}
+
+/* Ordinateurs portables / Écrans moyens */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    /* Styles pour ordinateurs portables */
+}
+
+/* Grands écrans */
+@media only screen and (min-width: 1201px) {
+    /* Styles pour grands écrans */
+}
+
+/* Très grands écrans / TV */
+@media only screen and (min-width: 1600px) {
+    /* Styles pour très grands écrans et télévisions */
+}
